@@ -5,7 +5,7 @@ A starter template for building freeboard widgets using the handlebars plugin.
 
 This gives you a nice development workflow by allowing you to implement your widget using files (view.html, model.js, helpers.js), saving your files, and then refreshing your browser to immediately see your changes (assuming you have script to have freeboard load your dashboard.json) or you can manually re-load your dashboard.
 
-Includes predefined npm scripts for compiling jsx and updating freeboard dashboard.json (using [freeboard-handlebars-buildtool](https://github.com/jritsema/freeboard-handlebars-buildtool)) when files are saved.
+Includes predefined npm scripts for updating freeboard dashboard.json (using [freeboard-handlebars-buildtool](https://github.com/jritsema/freeboard-handlebars-buildtool)) when files are saved.
 
 **setup**
 
