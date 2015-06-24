@@ -1,0 +1,19 @@
+{
+  "name": "freeboard-handlebars-widget",
+  "version": "1.0.0",
+  "description": "A starter template for building freeboard widgets using the handlebars plugin.",
+  "scripts": {
+    "build": "cat dashboard.json | freeboard-handlebars-buildtool > temp && cp temp dashboard.json && rm temp",
+    "watch": "nodemon --exec npm run build --watch view.html --watch model.js --watch helpers.js"
+  },
+  "author": "jritsema",
+  "license": "MIT",
+  "devDependencies": {
+    "freeboard-handlebars-buildtool": "^1.0.0",
+    "nodemon": "^1.3.7"
+  },
+  "keywords": [
+    "freeboard",
+    "handlebars"
+  ]
+}
