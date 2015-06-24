@@ -1,7 +1,7 @@
 freeboard-handlebars-widget
 ============================
 
-A starter template for building freeboard widgets using the handlebars plugin.
+A starter template for building freeboard widgets using the [handlebars plugin](https://github.com/jritsema/freeboard-handlebars).
 
 This gives you a nice development workflow by allowing you to implement your widget using files (view.html, model.js, helpers.js), saving your files, and then refreshing your browser to immediately see your changes (assuming you have script to have freeboard load your dashboard.json) or you can manually re-load your dashboard.
 
