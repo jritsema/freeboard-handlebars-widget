@@ -23,13 +23,13 @@ Edit the "build" script command in package.json to point to the dashboard.json f
 "build": "cat ../freeboard/dashboard.json | freeboard-handlebars-buildtool > temp && cp temp ../freeboard/dashboard.json && rm temp",
 ```
 
-Note that the target widget defined in dashboard.json needs to have an "id" property that matches the "name" property in package.json.  For example, if you update the name in package.json to "mywidget", then your dashboard.json needs to look like the following.
+Note that the target widget defined in dashboard.json needs to have a "title" property that matches the "name" property in package.json.  For example, if you update the name in package.json to "mywidget", then your dashboard.json needs to look like the following.
 
 ```
 ...
 "widgets": [
   {
-    "id": "mywidget",
+    "title": "mywidget",
     "type": "handlebarsWidget",
     "settings": {
       "height": 3,
